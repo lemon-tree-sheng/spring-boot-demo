@@ -1,0 +1,10 @@
+# 服务器配置
+server:
+  port: 9090
+  context-path: /
+
+# true 可查看已启用、未启用的配置报告
+debug: false
+
+hello:
+  msg: "wanrumeng"
