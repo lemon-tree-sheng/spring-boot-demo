@@ -5,6 +5,3 @@ server:
 
 # true 可查看已启用、未启用的配置报告
 debug: false
-
-hello:
-  msg: "wanrumeng"

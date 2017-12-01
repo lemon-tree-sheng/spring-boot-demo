@@ -6,10 +6,7 @@
 	<groupId>com.sheng</groupId>
 	<artifactId>spring-boot-demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-    <modules>
-        <module>spring-boot-starter-hello</module>
-    </modules>
-    <packaging>pom</packaging>
+    <packaging>jar</packaging>
 
 	<name>spring-boot-demo</name>
 	<description>Demo project for Spring Boot</description>
@@ -29,12 +26,6 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>com.sheng</groupId>
-			<artifactId>spring-boot-starter-hello</artifactId>
-			<version>1.0-SNAPSHOT</version>
-		</dependency>
-
-		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
 		</dependency>
@@ -53,6 +44,10 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
 		</dependency>
 	</dependencies>
 
